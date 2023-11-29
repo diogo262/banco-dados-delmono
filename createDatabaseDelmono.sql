@@ -11,7 +11,7 @@ create table tbl_mesa (
 
 create table tbl_cardapio (
 	idCardapio int auto_increment primary key,
-    pratosCardapio varchar(20) not null,
+    pratoCardapio varchar(20) not null,
     descricaoPrato varchar(45) not null,
     ingredientesPrato varchar(45) not null,
     precoPrato decimal(8, 2) not null
