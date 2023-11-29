@@ -35,7 +35,7 @@ create table tbl_atende(
 
  create table tbl_cliente(
 	idCliente int auto_increment primary key,
-    cpfCliente varchar(14) not null,
+    cpfCliente varchar(11) not null,
     nomeCliente varchar(35) not null,
     idCardapio int not null,
     foreign key(idCardapio) references tbl_cardapio(idCardapio)
